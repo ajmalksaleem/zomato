@@ -1,0 +1,1080 @@
+body{
+    margin: 0%;
+    font-family: Okra,Helvetica,sans-serif;
+}
+
+.topsection{
+    width: 100%;
+    height: 420px;
+    background-color:rgba(83, 80, 80, 0.397);
+    background-image: url(zomatobackground.avif);
+   background-position: center;
+   background-blend-mode: multiply;
+   display: inline-block;
+}
+
+.headerleft i{
+    color: white;
+    margin-left: 119px;
+    margin-top: 28px;
+    font-size: 10px;
+    float: left;
+cursor: pointer;
+}
+
+.headerleft p{
+    float: left;
+    font-size: 1.4rem;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    font-family: Okra,Helvetica,sans-serif;
+    font-size: 14px;
+   padding-top: 9px;
+   margin-left: 6px;
+    margin-top: 16px;
+   transition: text-decoration 1s;
+}
+
+.headerleft p:hover,i{
+    color: rgb(255, 251, 9);
+   
+    transition: 1s;
+   
+}
+
+.headerright li{
+    float: left;
+   list-style: none;
+   margin-right: 41px;
+   font-weight: 300;
+   color: rgb(255, 255, 255);
+   font-family: Okra,Helvetica,sans-serif;
+   font-size: 18px;
+   cursor: pointer;
+   transition: color 0.8s;
+   transition: line-height 0.5s;
+
+   
+}
+
+.headerright{
+    margin-left: 678px;
+    padding-top: 13px;
+    
+}
+
+
+
+.headerright li:hover{
+font-weight: 400;
+    color: rgb(255, 251, 9);
+    
+line-height: 19px;
+
+}
+  
+
+  
+.headerdownimage{
+    margin-left: 319px;
+    margin-top: 57px;
+    width: 263px;
+    
+}
+
+.headerdowntxt{
+
+    text-align: center;
+    font-size:36px;
+    color: white;
+}
+
+.searchbox{
+  
+    border-radius: 10px;
+        background-color: white;
+        display: inline-block;
+        margin-left: 309px;
+        padding-right: 163px;
+        width: 578px;
+        height: 56px;
+        vertical-align: top;
+
+}
+
+
+.locationicon i{
+
+
+color:rgb(255, 126, 139);
+font-size: 21px;
+display: inline-block;
+margin-top: 18px;
+margin-left: 10px;
+float: left;
+}
+
+.locationicon p{
+    float: left;
+    margin-left: 5px;
+    margin-top: 19px;
+    color: rgba(34, 34, 34, 0.726);
+}
+
+.carreticon i{
+    color: rgba(34, 34, 34, 0.726);
+
+    margin-top: 15px;
+}
+
+
+.carreticon p{
+
+    
+    margin-left: 1px;
+    float: left;
+    font-size: 20px;
+    margin-top: 15px;
+
+}
+.searchicon i{
+
+    float: left;
+    color: rgba(34, 34, 34, 0.726);
+font-size: 22px;
+margin-top: 16px;
+margin-left: 15px;
+
+}
+
+.searchbox input{
+    background-color: white;
+    display: flex;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    width: 333px;
+    line-height: 0%;
+    float: left;
+    margin-top: -42px;
+    margin-left: 296px;
+}
+.middlesection{
+
+    width: 100%;
+    height: 381px;
+    
+}
+
+
+.middleleftsection{
+float: left;
+width: 540px;
+height: 240px;
+outline-style: solid;
+outline-width: 1px;
+outline-color: rgba(78, 78, 78, 0.247);
+margin-top: 40px;
+margin-left: 122px;
+border-radius: 15px;
+transition: 0.3s;
+}
+
+.middleleftimage{
+    width: 100%;
+    height: 155px;
+    background-image: url(middleimage1.avif);
+    object-fit: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.middleleftimagetetext1{
+
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 25px;
+
+}
+
+.middleleftimagetetext2{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: -14px;
+    margin-left: 25px;
+}
+
+
+.middlerightsection{
+    float: left;
+    width: 540px;
+    height: 240px;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: rgba(78, 78, 78, 0.247);
+    margin-top: 40px;
+    margin-left: 24px;
+    border-radius: 15px;
+    transition: 0.3s;
+    
+    }
+    
+    .middlerightimage{
+        width: 100%;
+        height: 155px;
+        background-image: url(middlerightimage.avif);
+        object-fit: cover;
+        background-position: center;
+        border-radius: 15px;
+    }
+    
+    .middlerightimagetetext1{
+    
+        font-weight: 500;
+        font-size: 20px;
+        margin-left: 25px;
+    
+    }
+    
+    .middlerightimagetetext2{
+        font-weight: 400;
+        font-size: 16px;
+        margin-top: -14px;
+        margin-left: 25px;
+    }
+
+
+    .middleleftsection:hover{
+
+        transform: scale(1.06);
+
+    }
+
+    .middlerightsection:hover{
+
+        transform: scale(1.06);
+
+    }
+
+    .thirdsection{
+        width: 100%;
+        height: 480px;
+        
+        
+    }
+
+ .thirdsectiontext1{
+   
+    font-weight: 500;
+    font-size: 36px;
+    margin-left: 127px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  
+    
+ }
+    
+ .thirdsectiontext2{
+   
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: 129px;
+    margin-top: 5px;
+    display: inline-block;
+    
+ }
+
+ .thirdsectiontext3{
+
+    display: inline-block;
+    margin-left: 229px;
+    color: rgb(255, 126, 139);
+    cursor: pointer;
+}
+
+ .thirdfirst i{
+    color: rgb(255, 126, 139);
+    cursor: pointer;
+ }
+
+ .thirdsectiontext3:hover{
+
+    color: rgb(206, 50, 66);
+}
+ 
+.middlethirdsecond{
+
+
+height: 289px;
+width: 100%;
+
+margin-top: 10px;
+}
+
+
+.thirdgrid1{
+float: left;
+height: 100%;
+width: 266px;
+margin-left: 127px;
+border-radius: 10px;
+background-position: center;
+background-size: cover;
+background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 110%), url(thirdgridimg1.jpg);
+  
+
+}
+
+.thirdgrid2{
+    float: left;
+
+    height: 100%;
+    width: 266px;
+    margin-left: 12px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 110%), url(thirdgridimg2.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+
+    .thirdgrid3{
+        float: left;
+        
+        height: 100%;
+        width: 266px;
+        margin-left: 12px;
+        border-radius: 10px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1)110%), url(thirdgridimg3.jpg);
+        background-position: center;
+        background-size: cover;
+        }
+
+        .thirdgrid4{
+            float: left;
+         
+            height: 100%;
+            width: 266px;
+            margin-left: 12px;
+            border-radius: 10px;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 110%), url(thirdgridimg4.jpg);
+            background-position: center;
+            background-size: cover;
+            }
+
+            .grid1text1{
+                color: white;
+                font-size: 18px;
+                margin-top: 229px;
+                margin-left: 15px;
+                
+                
+            }
+            .grid1text2{
+
+                color: white;
+                margin-top: -12px;
+                margin-left: 15px;
+                float: left;
+
+            }
+
+            .thirdgrid1 i{
+
+                color: white;
+                padding-left: 8px;
+                margin-top: -10px;
+              
+               float: left;
+
+            }
+
+            .grid2text1{
+                color: white;
+                font-size: 18px;
+                margin-top: 229px;
+                margin-left: 15px;
+                
+                
+            }
+            .grid2text2{
+
+                color: white;
+                margin-top: -12px;
+                margin-left: 15px;
+                float: left;
+
+            }
+
+            .thirdgrid2 i{
+
+                color: white;
+                padding-left: 8px;
+                margin-top: -10px;
+              
+               float: left;
+
+            }
+
+
+            .grid3text1{
+                color: white;
+                font-size: 18px;
+                margin-top: 229px;
+                margin-left: 15px;
+                
+                
+            }
+            .grid3text2{
+
+                color: white;
+                margin-top: -12px;
+                margin-left: 15px;
+                float: left;
+
+            }
+
+            .thirdgrid3 i{
+
+                color: white;
+                padding-left: 8px;
+                margin-top: -10px;
+              
+               float: left;
+
+            }
+
+
+            .grid4text1{
+                color: white;
+                font-size: 18px;
+                margin-top: 229px;
+                margin-left: 15px;
+                
+                
+            }
+            .grid4text2{
+
+                color: white;
+                margin-top: -12px;
+                margin-left: 15px;
+                float: left;
+
+            }
+
+            .thirdgrid4 i{
+
+                color: white;
+                padding-left: 8px;
+                margin-top: -10px;
+              
+               float: left;
+
+            }
+
+
+            .fourthsection{
+
+                width: 100%;
+                height: 484px;
+                
+            }
+
+            .fourthsectionhead{
+                font-size: 36px;
+                margin-left: 127px;
+            }
+
+         
+
+        .gridbutton1{
+margin-bottom: 1px;
+            width: 349px;
+            height: 80px;
+            margin-top: 22px;
+          border-radius: 10px;
+          outline-color: rgba(37, 36, 36, 0.288);
+          outline-width: 1px;
+          outline-style: solid;
+            margin: 0%;
+            margin-left: 136px;
+            display: inline-block;
+float: left;
+        }
+
+        .text1gridbutton1 p{
+            align-items: center;
+            margin-top: 16px;
+            margin-bottom: 0%;
+            display: inline-block;
+            margin-left: 18px;
+            color: rgb(28, 28, 28);
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .arrowgridbutton1 i{
+            margin-top: -3px;
+            margin-left: 297px;
+            display: flex;
+            color: black;
+        }
+
+        .text2gridbutton1 p{
+            margin-top: -12px;
+            margin-left: 18px;
+
+          
+        }
+
+
+
+
+
+
+
+
+
+        .gridbutton2{
+
+            width: 349px;
+            height: 80px;
+            margin-top: 1px;
+            margin-top: 1px;
+          border-radius: 10px;
+          outline-color: rgba(37, 36, 36, 0.288);
+          outline-width: 1px;
+          outline-style: solid;
+            margin: 0%;
+            margin-left: 18px;
+            display: inline-block;
+            float: left;
+           
+        }
+
+       
+
+        .text1gridbutton2 p{
+            align-items: center;
+            margin-top: 16px;
+            margin-bottom: 0%;
+            display: inline-block;
+            margin-left: 18px;
+            color: rgb(28, 28, 28);
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .arrowgridbutton2 i{
+            margin-top: -3px;
+            margin-left: 297px;
+            display: flex;
+            color: black;
+        }
+
+        .text2gridbutton2 p{
+            margin-top: -12px;
+            margin-left: 18px;
+
+          
+        }
+
+
+
+
+
+
+
+        .gridbutton3{
+
+            width: 349px;
+            height: 80px;
+            
+            margin-top: 14px;
+          border-radius: 10px;
+          outline-color: rgba(37, 36, 36, 0.288);
+          outline-width: 1px;
+          outline-style: solid;
+            margin: 0%;
+            margin-left: 18px;
+            display: inline-block;
+            float: left;
+           
+        }
+
+       
+
+        .text1gridbutton3 p{
+            align-items: center;
+            margin-top: 16px;
+            margin-bottom: 0%;
+            display: inline-block;
+            margin-left: 18px;
+            color: rgb(28, 28, 28);
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .arrowgridbutton3 i{
+            margin-top: -3px;
+            margin-left: 297px;
+            display: flex;
+            color: black;
+        }
+
+        .text2gridbutton3 p{
+            margin-top: -12px;
+            margin-left: 18px;
+
+          
+        }
+
+
+
+
+
+
+
+
+
+
+
+        .gridbutton4{
+
+            width: 349px;
+            height: 80px;
+           
+            margin-top: 14px;
+          border-radius: 10px;
+          outline-color: rgba(37, 36, 36, 0.288);
+          outline-width: 1px;
+          outline-style: solid;
+            padding-top: 5p;
+            margin-left: 136px;
+            display: inline-block;
+float: left;
+        }
+
+        .text1gridbutton4 p{
+            align-items: center;
+            margin-top: 16px;
+            margin-bottom: 0%;
+            display: inline-block;
+            margin-left: 18px;
+            color: rgb(28, 28, 28);
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .arrowgridbutton4 i{
+            margin-top: -3px;
+            margin-left: 297px;
+            display: flex;
+            color: black;
+        }
+
+        .text2gridbutton4 p{
+            margin-top: -12px;
+            margin-left: 18px;
+
+          
+        }
+
+
+
+
+
+
+
+
+
+        .gridbutton5{
+
+            width: 349px;
+            height: 80px;
+           
+            margin-top: 14px;
+          border-radius: 10px;
+          outline-color: rgba(37, 36, 36, 0.288);
+          outline-width: 1px;
+          outline-style: solid;
+           
+            margin-left: 18px;
+            display: inline-block;
+            float: left;
+           
+        }
+
+       
+
+        .text1gridbutton5 p{
+            align-items: center;
+            margin-top: 16px;
+            margin-bottom: 0%;
+            display: inline-block;
+            margin-left: 18px;
+            color: rgb(28, 28, 28);
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .arrowgridbutton5 i{
+            margin-top: -3px;
+            margin-left: 297px;
+            display: flex;
+            color: black;
+        }
+
+        .text2gridbutton5 p{
+            margin-top: -12px;
+            margin-left: 18px;
+
+          
+        }
+
+
+
+
+
+        .gridbutton6{
+
+            width: 349px;
+            height: 80px;
+           
+            margin-top: 14px;
+          border-radius: 10px;
+          outline-color: rgba(37, 36, 36, 0.288);
+          outline-width: 1px;
+          outline-style: solid;
+           
+            margin-left: 18px;
+            display: inline-block;
+            float: left;
+           
+        }
+
+       
+
+        .text1gridbutton6 p{
+            align-items: center;
+            margin-top: 16px;
+            margin-bottom: 0%;
+            display: inline-block;
+            margin-left: 18px;
+            color: rgb(28, 28, 28);
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .arrowgridbutton6 i{
+            margin-top: -3px;
+            margin-left: 297px;
+            display: flex;
+            color: black;
+        }
+
+        .text2gridbutton6 p{
+            margin-top: -12px;
+            margin-left: 18px;
+
+          
+        }
+
+
+
+        .gridbutton7{
+            width: 349px;
+            height: 80px;
+           
+            margin-top: 14px;
+          border-radius: 10px;
+          outline-color: rgba(37, 36, 36, 0.288);
+          outline-width: 1px;
+          outline-style: solid;
+           
+            margin-left: 135px;
+            display: inline-block;
+            float: left;
+           
+        }
+
+        .text1gridbutton7 p{
+            align-items: center;
+            margin-top: 16px;
+            margin-bottom: 0%;
+            display: inline-block;
+            margin-left: 18px;
+            color: rgb(28, 28, 28);
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .arrowgridbutton7 i{
+            margin-top: -3px;
+            margin-left: 297px;
+            display: flex;
+            color: black;
+        }
+
+        .text2gridbutton7 p{
+            margin-top: -12px;
+            margin-left: 18px;
+
+          
+        }
+
+    
+
+
+
+
+
+
+
+        .gridbutton8{
+
+            width: 349px;
+            height: 80px;
+           
+            margin-top: 14px;
+          border-radius: 10px;
+          outline-color: rgba(37, 36, 36, 0.288);
+          outline-width: 1px;
+          outline-style: solid;
+           
+            margin-left: 18px;
+            display: inline-block;
+            float: left;
+           
+        }
+
+       
+
+        .text1gridbutton8 p{
+            align-items: center;
+            margin-top: 16px;
+            margin-bottom: 0%;
+            display: inline-block;
+            margin-left: 18px;
+            color: rgb(28, 28, 28);
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .arrowgridbutton8 i{
+            margin-top: -3px;
+            margin-left: 297px;
+            display: flex;
+            color: black;
+        }
+
+        .text2gridbutton8 p{
+            margin-top: -12px;
+            margin-left: 18px;
+
+          
+        }
+
+
+
+
+
+        .gridbutton9{
+
+            width: 349px;
+            height: 80px;
+           
+            margin-top: 14px;
+          border-radius: 10px;
+          outline-color: rgba(37, 36, 36, 0.288);
+          outline-width: 1px;
+          outline-style: solid;
+           
+            margin-left: 18px;
+            display: inline-block;
+            float: left;
+           
+        }
+
+       
+
+        .text1gridbutton9 p{
+            align-items: center;
+            margin-top: 16px;
+            margin-bottom: 0%;
+            display: inline-block;
+            margin-left: 18px;
+            color: rgb(28, 28, 28);
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .arrowgridbutton9 i{
+            margin-top: -3px;
+            margin-left: 297px;
+            display: flex;
+            color: black;
+        }
+
+        .text2gridbutton9 p{
+            margin-top: -12px;
+            margin-left: 18px;
+
+          
+        }
+
+       .fourthsctitile{
+
+font-size: 36px;
+margin-left: 137px;
+
+       }
+
+
+       .footer{
+
+width: 100%;
+height: 480px;
+background-color: rgb(255, 251, 247);
+margin-top: 0px;
+
+ }
+
+       .footerleft img{
+
+width: 278px;
+margin-left: 302px;
+margin-top: 111px;
+float: left;
+
+       }
+
+       .footertext1{
+
+font-size: 44px;
+font-weight: 500;
+margin-top: 63px;
+margin-left: 46px;
+display: inline-block;
+
+       }
+
+       .footertext2{
+
+        display: inline-block;
+        margin-top: -45px;
+        margin-left: 54px;
+        color: rgb(54, 54, 54);
+        padding-bottom: 24px;
+       }
+
+
+       .formradio1{
+display: inline-block;
+float: left;
+margin-left: 62px;
+transform: scale(1.4);
+fill: rgb(239, 79, 95);
+       }
+
+       .formradio2{
+        display: inline-block;
+        float: left;
+        margin-left: 51px;
+        transform: scale(1.3);
+               }
+
+               [type="radio"]{
+                outline-color: red;
+               }
+
+               .footersearchbox input{
+
+display: inline-block;
+margin-top: 44px;
+border-radius: 10px;
+border-width: 1px;
+outline: none;
+border-style: solid;
+height: 39px;
+border-color: rgba(75, 72, 72, 0.404);
+margin-left: -193px;
+width: 270px;
+float: left;
+font-size: medium;
+
+               }
+
+
+
+ .footersearchbutton button{
+
+float: left;
+margin-top: 45px;
+display: inline-block;
+background-color:  rgb(239, 79, 95);
+width: 121px;
+height: 41px;
+border-radius: 8px;
+margin-left: 10px;
+border: none;
+color: white;
+cursor: pointer;
+
+               }
+
+
+               .footersearchbutton button:hover{
+
+                background-color:  rgb(194, 60, 73);
+               }
+
+
+               .footersearchbutton p{
+
+                padding-top: 98px;
+                margin-left: -402px;
+                display: inline-block;
+                opacity: 0.8;
+                color: black;
+               }
+
+
+               .footerimage1{
+
+width: 100px;
+margin-left: 58px;
+               }
+
+               .footerimage2{
+                width: 100px;
+
+               }
+
+
+               .gridbutton1:hover{
+box-shadow: 2px 2px 10px rgba(56, 51, 51, 0.555); }
+
+.gridbutton2:hover{
+    box-shadow: 2px 2px 10px rgba(56, 51, 51, 0.555); }
+
+    .gridbutton3:hover{
+        box-shadow: 2px 2px 10px rgba(56, 51, 51, 0.555); }
+
+        .gridbutton4:hover{
+            box-shadow: 2px 2px 10px rgba(56, 51, 51, 0.555); }
+
+            .gridbutton5:hover{
+                box-shadow: 2px 2px 10px rgba(56, 51, 51, 0.555); }
+
+                .gridbutton6:hover{
+                    box-shadow: 2px 2px 10px rgba(56, 51, 51, 0.555); }
+
+                    .gridbutton7:hover{
+                        box-shadow: 2px 2px 10px rgba(56, 51, 51, 0.555); }
+
+                        .gridbutton8:hover{
+                            box-shadow: 2px 2px 10px rgba(56, 51, 51, 0.555); }
+        
+                            .gridbutton9:hover{
+                                box-shadow: 2px 2px 10px rgba(56, 51, 51, 0.555); }
